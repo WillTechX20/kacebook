@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Join a Room on Kacebook!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    </head>
+    <body>
+        <h1>Join a Room</h1>
+        <input type="button" value="Logout" onclick="logout();">
+        <div class="user_greeting"></div>
+        <input type="text" placeholder="Enter in your room name!" class="new_room_name">
+        <input type="button" value="Add Room" onclick="addRoom();">
+        <input type="button" value="Join Room" onclick="joinRoom();">
+        <div class="scripts">
+            <script src="join_room.js"></script>
+        </div>
+    </body>
+</html>
